@@ -1,0 +1,14 @@
+plugins {
+    id 'scala'
+}
+
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.scala-lang:scala-library:2.13.3")
+    compile group: 'org.ow2.asm', name: 'asm', version: '8.0.1'
+}
